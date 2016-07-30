@@ -73,7 +73,7 @@ class PageTheme extends Theme implements ThemeProviderInterface
      */
     public function registerAssets()
     {
-        //        $this->providesAsset('javascript', 'bootstrap/*');
+//        $this->providesAsset('javascript', 'bootstrap/*');
 //        $this->providesAsset('css', 'bootstrap/*');
 //        $this->providesAsset('css', 'blocks/*');
 //        $this->providesAsset('css', 'core/frontend/*');
@@ -162,7 +162,7 @@ class PageTheme extends Theme implements ThemeProviderInterface
     }
 
     /**
-     * Get theme responsive image map.
+     * Get theme responsive image map (NOT Required).
      *
      * @see http://documentation.concrete5.org/developers/designing-for-concrete5/supporting-responsive-images-in-your-concrete5-theme
      *
